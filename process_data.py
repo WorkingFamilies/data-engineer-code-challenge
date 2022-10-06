@@ -5,12 +5,12 @@ import os
 
 from psycopg2 import Timestamp
 
-attendances = {}
+attendances_json = {}
 # Open attendances JSON file
 with open('data/attendances.json') as f:
-  attendances = json.loads(f.read())
+  attendances_json = json.loads(f.read())
 
-print("processed", len(attendances), "attendances")
+print("processed", len(attendances_json), "attendances")
 
 # add your code for processing this data here! 
 
@@ -38,14 +38,17 @@ def get_person(record):
   for date_col in ['created_date', 'modified_date','blocked_date']:
     person_dict[date_col] = unix_to_date_string(person_dict[date_col])
 
-  # extracting values from nested dictionaries
-  for dict_col in ['email_addresses','phone_numbers','postal_addresses']:
-    col_list = person_dict[dict_col]
+  # extracting values from nested dictionaries and renaming them for clarity
+  nested_cols = ['email_addresses','phone_numbers','postal_addresses']
+  new_col_names = ['email_address','phone_number','zip_code']
+
+  for nested_col, new_col in zip(nested_cols, new_col_names):
+    col_list = person_dict[nested_col]
     for item in col_list:
       if item['primary']:
-        new_col = [val for val in item.keys() if val != 'primary'][0]
-        person_dict[new_col] = item[new_col]
-    del person_dict[dict_col]
+        new_val = [val for val in item.keys() if val != 'primary'][0]
+        person_dict[new_col] = item[new_val]
+    del person_dict[nested_col]
 
   # returning the person_id and the simplified dictionary
   return person_dict['person_id'], person_dict
@@ -151,7 +154,7 @@ def process_records(list_of_records):
   people = {}
   events = {}
   timeslots = {}
-  flat_attendances = {}
+  attendances = {}
 
   print(f'Starting to process {len(list_of_records)} records')
 
@@ -171,7 +174,7 @@ def process_records(list_of_records):
 
     # cleaning up the attendance record
     attendance_id, attendance_row = flatten_attendance_record(record)
-    flat_attendances[attendance_id] = attendance_row
+    attendances[attendance_id] = attendance_row
 
     if i > 0 and i % 100 == 0:
       print(f'Processed {i} of out {len(list_of_records)} records')
@@ -179,7 +182,7 @@ def process_records(list_of_records):
   print(f'Converted {len(list_of_records)} records into {len(people)} people, {len(events)} events, and {len(timeslots)} timeslots')
 
   # now that we have unique records, we don't need the id keys! we just want the dictionaries so we can convert to a CSV
-  return list(people.values()), list(events.values()), list(timeslots.values()), list(flat_attendances.values())
+  return list(people.values()), list(events.values()), list(timeslots.values()), list(attendances.values())
 
 
 # function to export our table equivalents to CSV
@@ -200,10 +203,10 @@ def list_of_dicts_to_csv(list_of_dicts,csv_name):
 def main():
 
   # processing the records into lists of dictionaries
-  people, events, timeslots, flat_attendances = process_records(attendances)
+  people, events, timeslots, attendances = process_records(attendances_json)
 
   # converting each of those lists of dictionaries into CSVs
-  for list_of_dicts, file_name in zip([people, events, timeslots, flat_attendances], ['people','events','timeslots', 'flat_attendances']):
+  for list_of_dicts, file_name in zip([people, events, timeslots, attendances], ['people','events','timeslots', 'attendances']):
     
     # deleting existing files if they exist
     try:
