@@ -1,4 +1,4 @@
-sms_opt_in_status,created_date,family_name,modified_date,blocked_date,person_id,user_id,given_name,address,number,postal_code
+sms_opt_in_status,created_date,family_name,modified_date,blocked_date,person_id,user_id,given_name,email_address,phone_number,zip_code
 OPT_IN,2019-04-01 21:19:24,Siannodel,2022-09-26 10:28:49,,467354,474960,Jelenneth,jelenneth.siannodel@example.com,5555555555,10031
 UNSPECIFIED,2019-03-12 19:24:00,Holimion,2022-09-23 12:40:25,,438678,445617,Adran,adran.holimion@example.com,5555555555,94530
 UNSPECIFIED,2019-04-23 22:55:54,Ilphelkiir,2022-09-23 12:28:27,,507597,516527,Himo,himo.ilphelkiir@example.com,5555555555,22903
