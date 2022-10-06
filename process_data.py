@@ -100,12 +100,39 @@ def get_timeslot(record):
   return timeslot_dict['id'], timeslot_dict
 
 
+def flatten_attendance_record(record):
+
+  new_record = record
+
+  for date_col in ['created_date','modified_date']:
+    new_record[date_col] = unix_to_date_string(new_record[date_col])
+
+  for id_col in ['sponsor','timeslot','person','event']:
+    try:
+      new_record[f'{id_col}_id'] = new_record[id_col]['id']
+    except:
+      new_record[f'{id_col}_id'] = None
+    del new_record[id_col]
+
+  new_record['utm_source'] = new_record['referrer']['utm_source']
+  del new_record['referrer']
+
+  new_record['custom_signup_field_values'] = str(new_record['custom_signup_field_values'])[1:-1]
+
+  return new_record['id'], new_record
+
+  
+
+
+
+
 
 def process_records(list_of_records):
   # creating dictionaries to store records in -- this will eliminate any duplicates since each id will be unique, unlike lists!
   people = {}
   events = {}
   timeslots = {}
+  flat_attendances = {}
 
   print(f'Starting to process {len(list_of_records)} records')
 
@@ -124,14 +151,17 @@ def process_records(list_of_records):
     timeslot_id, timeslot_row = get_timeslot(record)
     timeslots[timeslot_id] = timeslot_row
 
+    # cleaning up the attendance record
+    attendance_id, attendance_row = flatten_attendance_record(record)
+    flat_attendances[attendance_id] = attendance_row
+
     if i > 0 and i % 100 == 0:
       print(f'Processed {i} of out {len(list_of_records)} records')
 
   print(f'Converted {len(list_of_records)} records into {len(people)} people, {len(events)} events, and {len(timeslots)} timeslots')
 
   # now that we have unique records, we don't need the id keys! we just want the dictionaries so we can convert to a CSV
-  return list(people.values()), list(events.values()), list(timeslots.values())
-
+  return list(people.values()), list(events.values()), list(timeslots.values()), list(flat_attendances.values())
 
 def list_of_dicts_to_csv(list_of_dicts,csv_name):
 
@@ -149,10 +179,10 @@ def list_of_dicts_to_csv(list_of_dicts,csv_name):
 def main():
 
   # processing the records into lists of dictionaries
-  people, events, timeslots = process_records(attendances)
+  people, events, timeslots, flat_attendances = process_records(attendances)
 
   # converting each of those lists of dictionaries into CSVs
-  for list_of_dicts, file_name in zip([people, events, timeslots], ['people','events','timeslots']):
+  for list_of_dicts, file_name in zip([people, events, timeslots, flat_attendances], ['people','events','timeslots', 'flat_attendances']):
     
     # deleting existing files
     try:
@@ -163,8 +193,6 @@ def main():
 
     # writing to CSV
     list_of_dicts_to_csv(list_of_dicts, file_name)
-
-
 
 # run main
 if __name__ == '__main__':
