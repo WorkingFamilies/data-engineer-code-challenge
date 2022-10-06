@@ -1,3 +1,10 @@
+## Contents
+- [Description](#Description)
+- [My approach](#My-approach)
+- [Output](#Output)
+- [How to use these tables](#How-to-use-these-tables)
+- [Next steps](#Next-steps)
+
 ## Description
 This repo contains my work for the WFP data engineering challenge. The goal of the challenge was to manipulate JSON data from an events platform that is ubiquitous in progressive spaces into flattened, queryable tables, as well as provide instructions for using those tables.
 
@@ -14,6 +21,7 @@ My plan was to (1) loop through the records, (2) extract those nested dictionari
 - Finally, I created a helper function, `list_of_dicts_to_csv` for step 5, writing those lists of dictionaries (`people`, `events`, `timeslots`, and `attendances`) to CSVs in the output folder. Then I defined main to apply each of these functions in turn.
 - Running this script results in the creation of 4 CSVs in the output folder: `people`, `events`, `timeslots`, `attendances`.
 
+## Output
 ### People
 - `sms_opt_in_status`: object
 - `created_date`: object
@@ -114,9 +122,9 @@ where attended = ‘TRUE’
 group by 1,2,3
 order by 4 desc
 ```
-## Limitations & next steps
+## Next steps
 I did not accomplish everything that I would have liked to if I wanted to present useful and clean table to an analyst. I completed this challenge with the assumption that I was creating source tables that would be staged later on (in dbt for example) according to the conventions and needs of the team. For example, there were string columns that were intended to be boolean columns, some nulls here and there, and column names that I would have preferred (i.e. `created_date` → `created_at`). That would be the next step in this process for me!<br /><br />
-An oversight or misstep on my part was that this script was not test-driven. With the suggested time limit, I jumped right into manipulation and transformation without setting up testing infrastructure to ensure data quality first. Test-driven development is a growth area of mine and the lack of that skill may have affected the usefulness of a script like this. 
+An oversight or misstep on my part was that this script was not test-driven. With the suggested time limit, I jumped right into manipulation and transformation without setting up testing infrastructure to ensure data quality first. Test-driven development is a growth area of mine and the lack of that skill may have affected the usefulness of a script like this. Going forward, I would want to set up some testing to compensate for that oversight.
 						
 						 					
 				
