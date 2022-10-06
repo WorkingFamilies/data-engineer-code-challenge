@@ -17,6 +17,7 @@ print("processed", len(attendances), "attendances")
 
 # defining helper functions
 
+
 # function to convert unix timestamps to date strings
 def unix_to_date_string(unix_date):
   if unix_date:
@@ -24,10 +25,14 @@ def unix_to_date_string(unix_date):
   else:
     return None
 
+
 # function to extract a person dictionary from an attendance record and flatten it
 def get_person(record):
   # extracting "person" dictionary from the record
   person_dict = record['person']
+
+  # dropping the 'id' column since we already have 'person_id'
+  del person_dict['id']
 
   # converting date columns from unix to timestamp strings
   for date_col in ['created_date', 'modified_date','blocked_date']:
@@ -43,13 +48,17 @@ def get_person(record):
     del person_dict[dict_col]
 
   # returning the person_id and the simplified dictionary
-  return person_dict['id'], person_dict
+  return person_dict['person_id'], person_dict
 
 
 # function to extract an event dictionary from an attendance record and flatten it
 def get_event(record):
   # extracting "event" dictionary from the record
   event_dict = record['event']
+
+  # renaming the id column for ease of joins later
+  event_dict['event_id'] = event_dict['id']
+  del event_dict['id']
 
   # replacing nested sponsor dictionary with a sponsor id (we'd hopefully have a sponsors table with the other info!)
   if event_dict['sponsor']:
@@ -84,7 +93,7 @@ def get_event(record):
     event_dict[date_col] = unix_to_date_string(event_dict[date_col])
 
   # returning the event_id and the simplified dictionary
-  return event_dict['id'], event_dict
+  return event_dict['event_id'], event_dict
 
 
 # function to extract a timeslot dictionary from an attendance record and flatten it
@@ -92,21 +101,32 @@ def get_timeslot(record):
   # extracting "event" dictionary from the record
   timeslot_dict = record['timeslot']
 
+  # renaming the id column for ease of joins later
+  timeslot_dict['timeslot_id'] = timeslot_dict['id']
+  del timeslot_dict['id']
+
   # converting date columns from unix to timestamp strings
   for date_col in ['start_date', 'end_date']:
     timeslot_dict[date_col] = unix_to_date_string(timeslot_dict[date_col])
 
   # returning the timeslot_id and the simplified dictionary
-  return timeslot_dict['id'], timeslot_dict
+  return timeslot_dict['timeslot_id'], timeslot_dict
+
 
 # function to flatten an attendance record once we've extracted what we need from it
 def flatten_attendance_record(record):
 
   new_record = record
 
+  # renaming the id column for ease of joins later
+  new_record['attendance_id'] = new_record['id']
+  del new_record['id']
+
+  # converting date columns from unix to timestamp strings
   for date_col in ['created_date','modified_date']:
     new_record[date_col] = unix_to_date_string(new_record[date_col])
 
+  # since we extracted all the data from the nested dictionaries, we can flatten them to just their unique id now
   for id_col in ['sponsor','timeslot','person','event']:
     try:
       new_record[f'{id_col}_id'] = new_record[id_col]['id']
@@ -114,12 +134,16 @@ def flatten_attendance_record(record):
       new_record[f'{id_col}_id'] = None
     del new_record[id_col]
 
+  # flattening referrer to utm_source  --  this might not be the correct approach but since there was no referrer_id...
   new_record['utm_source'] = new_record['referrer']['utm_source']
   del new_record['referrer']
 
+  # flattening custom fields into a string for downstream transformation/extraction
   new_record['custom_signup_field_values'] = str(new_record['custom_signup_field_values'])[1:-1]
 
-  return new_record['id'], new_record
+  # returning the attendance_id and the flattened record
+  return new_record['attendance_id'], new_record
+
 
 # function to process a list of attendance records and store the new flat data in lists of dictionaries
 def process_records(list_of_records):
@@ -130,7 +154,6 @@ def process_records(list_of_records):
   flat_attendances = {}
 
   print(f'Starting to process {len(list_of_records)} records')
-
 
   # looping through records and using helper functions to extract people, events, and timeslots to store in our dictionaries
   for i, record in enumerate(list_of_records):
@@ -157,6 +180,7 @@ def process_records(list_of_records):
 
   # now that we have unique records, we don't need the id keys! we just want the dictionaries so we can convert to a CSV
   return list(people.values()), list(events.values()), list(timeslots.values()), list(flat_attendances.values())
+
 
 # function to export our table equivalents to CSV
 def list_of_dicts_to_csv(list_of_dicts,csv_name):

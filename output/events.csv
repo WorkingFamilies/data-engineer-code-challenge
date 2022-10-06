@@ -1,5 +1,5 @@
-accessibility_notes,approval_status,created_by_volunteer_host,modified_date,event_campaign,id,instructions,timezone,virtual_action_url,featured_image_url,browser_url,tags,title,event_type,summary,address_visibility,high_priority,created_date,accessibility_status,visibility,timeslots,is_virtual,description,sponsor_id,venue,contact_name,contact_email_address,contact_phone_number,owner_user_id
-,APPROVED,False,2020-10-02 14:58:29,,91154,,America/Chicago,https://www.wfp4themany.org/text,https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20TX%20Endorsed%20%281%29_20190423144959602944.png,https://www.mobilize.us/workingfamilies/event/91154/,,Text Out the Vote Texas!,TEXT_BANK,"In 2019, it’s Our Turn to show up. It’s Our Turn to run. It’s Our Turn to decide.",PUBLIC,,2019-04-23 10:50:10,,PUBLIC,,True,"### Municipal elections are won and lost by a handful of votes.  
+accessibility_notes,approval_status,created_by_volunteer_host,modified_date,event_campaign,instructions,timezone,virtual_action_url,featured_image_url,browser_url,tags,title,event_type,summary,address_visibility,high_priority,created_date,accessibility_status,visibility,timeslots,is_virtual,description,event_id,sponsor_id,venue,contact_name,contact_email_address,contact_phone_number,owner_user_id
+,APPROVED,False,2020-10-02 14:58:29,,,America/Chicago,https://www.wfp4themany.org/text,https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20TX%20Endorsed%20%281%29_20190423144959602944.png,https://www.mobilize.us/workingfamilies/event/91154/,,Text Out the Vote Texas!,TEXT_BANK,"In 2019, it’s Our Turn to show up. It’s Our Turn to run. It’s Our Turn to decide.",PUBLIC,,2019-04-23 10:50:10,,PUBLIC,,True,"### Municipal elections are won and lost by a handful of votes.  
 
 Texas Working Families Party took a look at the numbers from the 2017 municipal election and saw that overwhelmingly, Millennial voters did not turn out. We’d guess, that most Millennials didn’t know that they had missed the chance to vote. **We don’t want this to happen again in 2019.**
 
@@ -9,12 +9,12 @@ Texas Working Families Party took a look at the numbers from the 2017 municipal 
 
 Our Turn Texas is the Texas Working Families Party’s Big Bold Idea to get a few more young Texans involved in local politics. Municipal elections aren’t sexy. There aren’t rock star candidates with celebrity endorsements. But what’s at stake are every day issues that affect all of us and last time, only 1% of Millennial voters showed up. 
 
-### In 2019, it’s Our Turn to show up. It’s Our Turn to run. It’s Our Turn to decide.",1391,,Quarion Holimion,quarion.holimion@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 15:03:00,,91985,"Head to https://www.wfp4themany.org/call4themany-events/carlosgarciarunoffphonebank to get started! 
+### In 2019, it’s Our Turn to show up. It’s Our Turn to run. It’s Our Turn to decide.",91154,1391,,Quarion Holimion,quarion.holimion@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 15:03:00,,"Head to https://www.wfp4themany.org/call4themany-events/carlosgarciarunoffphonebank to get started! 
 
 Use the chat feature if you need help connecting to the dialer or want have questions about the campaign!",America/Los_Angeles,https://www.wfp4themany.org/call4themany-events/carlosgarciarunoffphonebank,https://mobilizeamerica.imgix.net/uploads/event/Carlos4Phoenix%20Card_20190506203412773572.jpg,https://www.mobilize.us/workingfamilies/event/91985/,,"ELECT CARLOS FOR COUNCIL, PHOENIX AZ D8",PHONE_BANK,Help elect a community activist to Phoenix City Council!,PUBLIC,,2019-05-06 16:32:56,,PUBLIC,,True,"Virtual Phonebank Hours: 
-Weekdays 11:00 am - 8:00 pm & Weekends 10:00 am - 6:00 pm",1391,,Ivellios Liadon,ivellios.liadon@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:29:55,,92623,"**Here's how to get started:**
+Weekdays 11:00 am - 8:00 pm & Weekends 10:00 am - 6:00 pm",91985,1391,,Ivellios Liadon,ivellios.liadon@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:29:55,,"**Here's how to get started:**
 First, join the national SLACK workspace where we can easily collaborate with activists and members across the country!
 
 **Click here to get started --** http://bit.ly/WFP4theManySlack2
@@ -25,23 +25,23 @@ Thanks for joining the team!",America/New_York,https://www.wfp4themany.org/text,
 
 **[See more info at the active campaign page here](https://airtable.com/shrVDisAJhyTg7cHE)**
 
-Already a WFP T4R team member & need to schedule your text shift for a future date/time? [T4R SELF SCHEDULE TOOL](http://bit.ly/T4RSelfSchedule)",1391,,Birel Amakir,birel.amakir@example.com,555-555-5555,474960
-,APPROVED,False,,,,,America/New_York,,,,,,MEETING,,PUBLIC,,,,PUBLIC,,True,,,,,,,
-,APPROVED,True,2020-10-02 15:04:11,,110421,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/organization/Interim%20Bet%20On%20Us%20Graphic%204_20190809025915302425.png,https://www.mobilize.us/workingfamilies/event/110421/,,Savannah #BetOnUs House Gathering!,HOUSE_PARTY,,PUBLIC,,2019-08-09 03:17:06,,PUBLIC,,False,"Do you identify as a black woman or non-binary Black person? Are you looking for an electoral home that is as bold as your political dreams? 
+Already a WFP T4R team member & need to schedule your text shift for a future date/time? [T4R SELF SCHEDULE TOOL](http://bit.ly/T4RSelfSchedule)",92623,1391,,Birel Amakir,birel.amakir@example.com,555-555-5555,474960
+,APPROVED,False,,,,America/New_York,,,,,,MEETING,,PUBLIC,,,,PUBLIC,,True,,,,,,,,
+,APPROVED,True,2020-10-02 15:04:11,,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/organization/Interim%20Bet%20On%20Us%20Graphic%204_20190809025915302425.png,https://www.mobilize.us/workingfamilies/event/110421/,,Savannah #BetOnUs House Gathering!,HOUSE_PARTY,,PUBLIC,,2019-08-09 03:17:06,,PUBLIC,,False,"Do you identify as a black woman or non-binary Black person? Are you looking for an electoral home that is as bold as your political dreams? 
 
 We want to build with you! 
 
 Bet On Us is an opportunity for our community of Black women and non-binary people to take the first steps towards creating an action plan to support building a local electoral home. A electoral home that will see us, serve us and bet on us to lead our communities.
 
-Please sign up to join our #BetOnUs house party",1391,Con-Ed Building,Jelenneth Meliamne,jelenneth.meliamne@example.com,555-555-5555,669797
-My house has about 6 steps to enter the front door.,APPROVED,True,2020-10-02 15:04:34,,115864,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/organization/Interim%20Bet%20On%20Us%20Graphic%204_20190809025915302425.png,https://www.mobilize.us/workingfamilies/event/115864/,,Atlanta #BetOnUs House Gathering!,HOUSE_PARTY,,PUBLIC,,2019-08-28 21:47:30,NOT_SURE,PUBLIC,,False,"Do you identify as a Black woman or non-binary person? Are you looking for an electoral home that is as bold as your political dreams? 
+Please sign up to join our #BetOnUs house party",110421,1391,Con-Ed Building,Jelenneth Meliamne,jelenneth.meliamne@example.com,555-555-5555,669797
+My house has about 6 steps to enter the front door.,APPROVED,True,2020-10-02 15:04:34,,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/organization/Interim%20Bet%20On%20Us%20Graphic%204_20190809025915302425.png,https://www.mobilize.us/workingfamilies/event/115864/,,Atlanta #BetOnUs House Gathering!,HOUSE_PARTY,,PUBLIC,,2019-08-28 21:47:30,NOT_SURE,PUBLIC,,False,"Do you identify as a Black woman or non-binary person? Are you looking for an electoral home that is as bold as your political dreams? 
 
 We want to build with you! 
 
 Bet On Us is an opportunity for our community of Black women and non-binary people to take the first steps towards creating an action plan to support building a local electoral home. A electoral home that will see us, serve us and bet on us to lead our communities. 
 
-Sign up to join a house party today!",1391,,Mindartis Ilphelkiir,mindartis.ilphelkiir@example.com,555-555-5555,709727
-,APPROVED,True,2020-10-02 15:05:29,,116366,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/organization/Interim%20Bet%20On%20Us%20Graphic%204_20190809025915302425.png,https://www.mobilize.us/workingfamilies/event/116366/,,East Point #BetOnUs House Gathering!,HOUSE_PARTY,,PUBLIC,,2019-08-30 00:41:21,ACCESSIBLE,PUBLIC,,False,"Hosts Keauna Gregory, Erica Clemmons Dean and Britney Whaley for the East Point Bet on Us house party!
+Sign up to join a house party today!",115864,1391,,Mindartis Ilphelkiir,mindartis.ilphelkiir@example.com,555-555-5555,709727
+,APPROVED,True,2020-10-02 15:05:29,,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/organization/Interim%20Bet%20On%20Us%20Graphic%204_20190809025915302425.png,https://www.mobilize.us/workingfamilies/event/116366/,,East Point #BetOnUs House Gathering!,HOUSE_PARTY,,PUBLIC,,2019-08-30 00:41:21,ACCESSIBLE,PUBLIC,,False,"Hosts Keauna Gregory, Erica Clemmons Dean and Britney Whaley for the East Point Bet on Us house party!
 
 Do you identify as a Black woman or non-binary person? Are you looking for an electoral home that is as bold as your political dreams? 
 
@@ -49,25 +49,25 @@ We want to build with you!
 
 Bet On Us is an opportunity for our community of Black women and non-binary people to take the first steps towards creating an action plan to support building a local electoral home. A electoral home that will see us, serve us and bet on us to lead our communities. 
 
-Sign up to join a house party today!",1391,,Carric Amastacia,carric.amastacia@example.com,555-555-5555,669797
-,APPROVED,False,2020-10-02 14:48:52,,223505,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/Why%20She%20Ran%20-%20Facebook%20Banner%204%20with%20panelists_20200205054926067305.png,https://www.mobilize.us/workingfamilies/event/223505/,,Why She Ran Atlanta,COMMUNITY,A Conversation with Progressive Womxn in Politics,PUBLIC,,2020-02-04 10:30:06,NOT_SURE,PUBLIC,,False,"Join Georgia Working Families Party for Why She Ran: a conversation with progressive womxn who have run for office and want to give you a peek behind the scenes.  
+Sign up to join a house party today!",116366,1391,,Carric Amastacia,carric.amastacia@example.com,555-555-5555,669797
+,APPROVED,False,2020-10-02 14:48:52,,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/Why%20She%20Ran%20-%20Facebook%20Banner%204%20with%20panelists_20200205054926067305.png,https://www.mobilize.us/workingfamilies/event/223505/,,Why She Ran Atlanta,COMMUNITY,A Conversation with Progressive Womxn in Politics,PUBLIC,,2020-02-04 10:30:06,NOT_SURE,PUBLIC,,False,"Join Georgia Working Families Party for Why She Ran: a conversation with progressive womxn who have run for office and want to give you a peek behind the scenes.  
 
 This event is open to progressive candidates, leaders, activists and organizers who want to have a candid conversation about obstacles womxn candidates face and how some of our fearless leaders have overcome those challenges. 
 
-Bring your questions. We will bring the wine :)",1391,Metropolitan Studios East Atlanta Village,Jelenneth Holimion,jelenneth.holimion@example.com,555-555-5555,669797
-,APPROVED,False,2020-10-02 14:14:28,,223881,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/fullsizeoutput_14dc_20200213222534935193.jpeg,https://www.mobilize.us/workingfamilies/event/223881/,,WFP WI Texting Tuesdays!,TEXT_BANK,Texting Tuesdays are back!,PUBLIC,,2020-02-04 16:09:49,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
+Bring your questions. We will bring the wine :)",223505,1391,Metropolitan Studios East Atlanta Village,Jelenneth Holimion,jelenneth.holimion@example.com,555-555-5555,669797
+,APPROVED,False,2020-10-02 14:14:28,,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/fullsizeoutput_14dc_20200213222534935193.jpeg,https://www.mobilize.us/workingfamilies/event/223881/,,WFP WI Texting Tuesdays!,TEXT_BANK,Texting Tuesdays are back!,PUBLIC,,2020-02-04 16:09:49,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
 
 This April 7th, nothing short of our children’s future is on the ballot. City of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
-Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",1391,,Arannis Ilphelkiir,arannis.ilphelkiir@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 15:17:38,,223882,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/3_2%20Ratio%20Texting%20Tuesdays%20_20200204210918676407.png,https://www.mobilize.us/workingfamilies/event/223882/,,Texting Tuesdays!,TEXT_BANK,Texting Tuesdays are back!,PUBLIC,,2020-02-04 16:10:15,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
+Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",223881,1391,,Arannis Ilphelkiir,arannis.ilphelkiir@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 15:17:38,,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/3_2%20Ratio%20Texting%20Tuesdays%20_20200204210918676407.png,https://www.mobilize.us/workingfamilies/event/223882/,,Texting Tuesdays!,TEXT_BANK,Texting Tuesdays are back!,PUBLIC,,2020-02-04 16:10:15,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
 
 This April, nothing short of our children’s future is on the ballot. In only 63 days, city of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
 Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!
 
-Sign up for more Texting Tuesdays here: https://www.mobilize.us/workingfamilies/event/223881/",1391,,Aelar Amakir,aelar.amakir@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 14:17:57,,226842,"# Thanks for signing up!
+Sign up for more Texting Tuesdays here: https://www.mobilize.us/workingfamilies/event/223881/",223882,1391,,Aelar Amakir,aelar.amakir@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 14:17:57,,"# Thanks for signing up!
 
 **Please use this form to find your ride (or offer a ride if you are able to drive!).**
 
@@ -93,8 +93,8 @@ So as we enter the home stretch before the first primary in the nation, [find a 
 
 **And if you’ve never canvassed before, don’t worry — there are a ton of experienced organizers here who are ready and excited to train you.**
 
-See you there,",1391,,Enialis Galanodel,enialis.galanodel@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:23:46,,233660,"Thanks for signing up to text with us! All you need to bring is your laptop, we'll provide the rest!
+See you there,",226842,1391,,Enialis Galanodel,enialis.galanodel@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:23:46,,"Thanks for signing up to text with us! All you need to bring is your laptop, we'll provide the rest!
 
 Every Tuesday until Election Day we will gather from 5:30-7:30pm at our Milwaukee Headquarters to text Milwaukee voters, making sure they head to the polls on April 7th with the information they need.
 
@@ -102,13 +102,13 @@ Questions? Contact Aaron Shapiro at ashapiro@workingfamilies.org.",America/Chica
 
 This April 7th, nothing short of our children’s future is on the ballot.  City of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
-Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",1391,,Arannis Siannodel,arannis.siannodel@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 14:23:56,,242090,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/Screen%20Shot%202020-02-21%20at%2010.13.04%20AM_20200221161300240163.png,https://www.mobilize.us/workingfamilies/event/242090/,,Texting Tuesdays + WI WFP Debate Party!,TEXT_BANK,"Texting Tuesdays, then Debate Watch Party with the Party!",PUBLIC,,2020-02-19 13:52:43,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
+Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",233660,1391,,Arannis Siannodel,arannis.siannodel@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 14:23:56,,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/Screen%20Shot%202020-02-21%20at%2010.13.04%20AM_20200221161300240163.png,https://www.mobilize.us/workingfamilies/event/242090/,,Texting Tuesdays + WI WFP Debate Party!,TEXT_BANK,"Texting Tuesdays, then Debate Watch Party with the Party!",PUBLIC,,2020-02-19 13:52:43,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
 
 This upcoming Tuesday going to party even harder as Texting Tuesday falls on South Carolina Democratic Debate day. We'll start at the usual 5:30 PM, but at 7:00 we'll gather around the WFP fireplace to watch the debate.
 
-No matter which candidate you support, we know as progressives, we need to come together, to not just defeat Trump, but the forces that put him in power. So this upcoming Tuesday, let's come together, have some fun, fight for the children of Milwaukee and then have slice and beer and unite!",1391,,Rolen Nailo,rolen.nailo@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 15:18:17,,251748,"Thanks for signing up to text with us! All you need to bring is your laptop, we'll provide the rest!
+No matter which candidate you support, we know as progressives, we need to come together, to not just defeat Trump, but the forces that put him in power. So this upcoming Tuesday, let's come together, have some fun, fight for the children of Milwaukee and then have slice and beer and unite!",242090,1391,,Rolen Nailo,rolen.nailo@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 15:18:17,,"Thanks for signing up to text with us! All you need to bring is your laptop, we'll provide the rest!
 
 We will gather from 5:30-7:30pm at our Milwaukee Headquarters to text Milwaukee voters, making sure they head to the polls on April 7th with the information they need.
 
@@ -116,8 +116,8 @@ Questions? Contact Aaron Shapiro at ashapiro@workingfamilies.org.",America/Chica
 
 This April 7th, nothing short of our children’s future is on the ballot.  City of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
-Join public school advocates in your community like yourself this Monday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",1391,,Felosial Liadon,felosial.liadon@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 14:47:10,,254920,"## Thank you for registering! Here are your next steps:
+Join public school advocates in your community like yourself this Monday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",251748,1391,,Felosial Liadon,felosial.liadon@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 14:47:10,,"## Thank you for registering! Here are your next steps:
 
 1. Sign up for the WFP Text Team Slack [here](https://www.wfp4themany.org/get-started) (this is how we communicate with the thousands of texting volunteers nationwide like you!)
 2.  Create your account in [Spoke](https://spoke.workingfamilies.org/10536106-5da3-439b-894a-83e3bd60a1de/join), our peer-to-peer texting app!
@@ -131,8 +131,8 @@ Join public school advocates in your community like yourself this Monday from 5:
 
 Morgan spent the first nine months of her life in a foster home until she was adopted by a public school teacher and raised on the east side of Columbus, Ohio. She received financial aid to attend a college prep school, which opened her eyes to the economic segregation at play in central Ohio. She went on to earn a B.A. from Tufts University, an M.P.A from Princeton University, and a J.D. from Stanford University. After which, Morgan served as a Senior Adviser to the first Director of the Consumer Financial Protection Bureau and most recently, she served as a VP at the Local Initiatives Support Corporation, the nation's largest community development organization. Morgan is currently running to represent Ohio's 3rd district in US Congress and is a strong believer in policies that support financial stability, racial justice, stable housing, and a clean environment. 
 
-If you're ready to help bring change to Congress and OH-3, then join in the effort to text voters, learn more about what issues matter to them and their families, and make sure we get out the word about progressive champion, Morgan Harper!",1391,,Valanthe Holimion,valanthe.holimion@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:15:14,,257267,"Thanks for signing up to text with us! All you need to bring is your laptop or tablet, we'll provide the rest!
+If you're ready to help bring change to Congress and OH-3, then join in the effort to text voters, learn more about what issues matter to them and their families, and make sure we get out the word about progressive champion, Morgan Harper!",254920,1391,,Valanthe Holimion,valanthe.holimion@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:15:14,,"Thanks for signing up to text with us! All you need to bring is your laptop or tablet, we'll provide the rest!
 
 We will gather from 5:30-7:30pm at our Milwaukee Headquarters to text Milwaukee voters, making sure they head to the polls on April 7th with the information they need.
 
@@ -140,8 +140,8 @@ Questions? Contact Aaron Shapiro at ashapiro@workingfamilies.org or Priscilla Bo
 
 This April 7th, nothing short of our children’s future is on the ballot.  City of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
-Join public school advocates in your community like yourself this MONDAY from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",1391,,Varis Liadon,varis.liadon@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 15:15:35,,258094,"## Thank you for registering! Here are your next steps:
+Join public school advocates in your community like yourself this MONDAY from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",257267,1391,,Varis Liadon,varis.liadon@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 15:15:35,,"## Thank you for registering! Here are your next steps:
 
 1. Sign up for the WFP Text Team Slack [here](https://www.wfp4themany.org/get-started) (this is how we communicate with the thousands of texting volunteers nationwide like you!)
 2.  Create your account in [Spoke](https://spoke.workingfamilies.org/10536106-5da3-439b-894a-83e3bd60a1de/join), our peer-to-peer texting app!
@@ -151,8 +151,8 @@ Join public school advocates in your community like yourself this MONDAY from 5:
 
 >  Janeese Lewis George is someone who has been a life-long, progressive who we know will fight to shift the balance of power back to working people. Her candidacy is not only about who has the best policy solutions to the challenges we face, it is also about how we will solve them. As a Fair Elections candidate, her grassroots people powered campaign is what puts her above the rest and why we know we will win together!
 
-> Get involved learning the effective and fun tactic of having conversations with voters via text message. These messages are more than just filling the airwaves: we engage voters on issues they care about, get them involved in volunteer opportunities, and help them triple their vote and reach other voters they know too!",1391,,Silaqui Nailo,silaqui.nailo@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:50:19,,258619,"Thank you for joining the welcome meeting to learn more about the WFP4theMany volunteer community, our teams, tactics, and plans!
+> Get involved learning the effective and fun tactic of having conversations with voters via text message. These messages are more than just filling the airwaves: we engage voters on issues they care about, get them involved in volunteer opportunities, and help them triple their vote and reach other voters they know too!",258094,1391,,Silaqui Nailo,silaqui.nailo@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:50:19,,"Thank you for joining the welcome meeting to learn more about the WFP4theMany volunteer community, our teams, tactics, and plans!
 
 This is a zoom call, so please join in with your computer and camera if possible! Phone is fine too, but we love to see your faces!
 
@@ -181,15 +181,15 @@ Kendra ran an insurgent campaign focused on restorative justice, affordable hous
 
 **The Working Families Party is focused on recruiting, training, and electing progressive candidates like Kendra Brooks up-and-down the ballot and across the country. And your continued commitment to the fight is sorely needed now, more than ever.** 
 
-**So please join our organizing call, Saturday, March 7th at 8:30pm ET/5:30pm PT, and keep this movement going.**",1391,,Varis Amakir,varis.amakir@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:21:07,,259552,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/texting%20with%20toddlers_20200306224106199095.jpg,https://www.mobilize.us/workingfamilies/event/259552/,,Texting with Toddlers!,TEXT_BANK,,PUBLIC,,2020-03-06 17:42:00,ACCESSIBLE,PUBLIC,,False,"PLEASE NOTE: THIS IS A VIRTUAL EVENT NOW!
+**So please join our organizing call, Saturday, March 7th at 8:30pm ET/5:30pm PT, and keep this movement going.**",258619,1391,,Varis Amakir,varis.amakir@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:21:07,,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/texting%20with%20toddlers_20200306224106199095.jpg,https://www.mobilize.us/workingfamilies/event/259552/,,Texting with Toddlers!,TEXT_BANK,,PUBLIC,,2020-03-06 17:42:00,ACCESSIBLE,PUBLIC,,False,"PLEASE NOTE: THIS IS A VIRTUAL EVENT NOW!
 
 Join Progressive Moms of Wisconsin and Working Families for this kid-friendly way to make a difference for all kids in Milwaukee!
 
 On April 7th, city of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve. Help us spread the word to vote YES for this important referendum. 
 
-We'll start with a short info session and Q&A so you can learn more about the details of the MPS referendum. If you've never texted before, we'll get you all set up and trained - bring a laptop or tablet. We’ll have kid-friendly snacks, coffee and tea for parents and activities to help keep your kids happy!",1391,,Aramil Nailo,aramil.nailo@example.com,555-555-5555,612108
-,APPROVED,False,2020-10-02 14:15:24,,261673,"Thanks for signing up to text with us! All you need to bring is your laptop or tablet, we'll provide the rest!
+We'll start with a short info session and Q&A so you can learn more about the details of the MPS referendum. If you've never texted before, we'll get you all set up and trained - bring a laptop or tablet. We’ll have kid-friendly snacks, coffee and tea for parents and activities to help keep your kids happy!",259552,1391,,Aramil Nailo,aramil.nailo@example.com,555-555-5555,612108
+,APPROVED,False,2020-10-02 14:15:24,,"Thanks for signing up to text with us! All you need to bring is your laptop or tablet, we'll provide the rest!
 
 We will gather from 5:30-7:30pm at our Milwaukee Headquarters to text Milwaukee voters, making sure they head to the polls on April 7th with the information they need.
 
@@ -197,13 +197,13 @@ Questions? Contact Aaron Shapiro at ashapiro@workingfamilies.org or Priscilla Bo
 
 This April 7th, nothing short of our children’s future is on the ballot.  City of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
-Join public school advocates in your community like yourself this MONDAY from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",1391,,Lia Galanodel,lia.galanodel@example.com,555-555-5555,663137
-,APPROVED,False,2020-10-02 14:49:57,,261675,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/fullsizeoutput_14dc_20200213222534935193.jpeg,https://www.mobilize.us/workingfamilies/event/261675/,,Texting Tuesday: March 17th !,TEXT_BANK,Texting Tuesdays are back!,PUBLIC,,2020-03-10 15:17:34,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
+Join public school advocates in your community like yourself this MONDAY from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",261673,1391,,Lia Galanodel,lia.galanodel@example.com,555-555-5555,663137
+,APPROVED,False,2020-10-02 14:49:57,,,America/Chicago,,https://mobilizeamerica.imgix.net/uploads/event/fullsizeoutput_14dc_20200213222534935193.jpeg,https://www.mobilize.us/workingfamilies/event/261675/,,Texting Tuesday: March 17th !,TEXT_BANK,Texting Tuesdays are back!,PUBLIC,,2020-03-10 15:17:34,ACCESSIBLE,PUBLIC,,False,"In 2018, we got together and defeated Scott Walker. Last year, we elected five public school champions to the MPS School Board. Now, the time has come to have some fun and make a difference texting Milwaukee voters on behalf of the upcoming Milwaukee Public School referendum.
 
 This April 7th, nothing short of our children’s future is on the ballot. City of Milwaukee voters will have a chance to increase funding to Milwaukee Public Schools, providing the deeply needed resources our students deserve.
 
-Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",1391,,Riardon Siannodel,riardon.siannodel@example.com,555-555-5555,663137
-,APPROVED,False,2020-10-02 14:50:19,,262832,"## Thank you for registering! Here are your next steps:
+Join public school advocates in your community like yourself every Tuesday from 5:30-7:30pm at our WIWFP MKE HQ, 413 N. 2nd St. We’ll have snacks, beer (and other beverages), and most important camaraderie! This is too important for us to sit on the sidelines!",261675,1391,,Riardon Siannodel,riardon.siannodel@example.com,555-555-5555,663137
+,APPROVED,False,2020-10-02 14:50:19,,"## Thank you for registering! Here are your next steps:
 
 1. Sign up for the WFP Text Team Slack [here](https://www.wfp4themany.org/get-started) (this is how we communicate with the thousands of texting volunteers nationwide like you!)
 2.  Create your account in [Spoke](https://spoke.workingfamilies.org/10536106-5da3-439b-894a-83e3bd60a1de/join), our peer-to-peer texting app!
@@ -217,8 +217,8 @@ Join public school advocates in your community like yourself every Tuesday from 
 
 Morgan spent the first nine months of her life in a foster home until she was adopted by a public school teacher and raised on the east side of Columbus, Ohio. She received financial aid to attend a college prep school, which opened her eyes to the economic segregation at play in central Ohio. She went on to earn a B.A. from Tufts University, an M.P.A from Princeton University, and a J.D. from Stanford University. After which, Morgan served as a Senior Adviser to the first Director of the Consumer Financial Protection Bureau and most recently, she served as a VP at the Local Initiatives Support Corporation, the nation's largest community development organization. Morgan is currently running to represent Ohio's 3rd district in US Congress and is a strong believer in policies that support financial stability, racial justice, stable housing, and a clean environment. 
 
-If you're ready to help bring change to Congress and OH-3, then join in the effort to text voters, learn more about what issues matter to them and their families, and make sure we get out the word about progressive champion, Morgan Harper!",1391,,Vadania Holimion,vadania.holimion@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:15:34,,262834,"## Thank you for registering! Here are your next steps:
+If you're ready to help bring change to Congress and OH-3, then join in the effort to text voters, learn more about what issues matter to them and their families, and make sure we get out the word about progressive champion, Morgan Harper!",262832,1391,,Vadania Holimion,vadania.holimion@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:15:34,,"## Thank you for registering! Here are your next steps:
 
 1. Sign up for the WFP Text Team Slack [here](https://www.wfp4themany.org/get-started) (this is how we communicate with the thousands of texting volunteers nationwide like you!)
 2.  Create your account in [Spoke](https://spoke.workingfamilies.org/10536106-5da3-439b-894a-83e3bd60a1de/join), our peer-to-peer texting app!
@@ -231,13 +231,13 @@ If you're ready to help bring change to Congress and OH-3, then join in the effo
 
 Help us reach thousands of Cook County voters in this critical GOTV weekend. Covid19 is prompting closings of more than 40 polling sites in the county, so our reminders of opportunities to vote early and where to vote is **so so important now!**
 
-Please sign up and follow the next steps in your email, including training, to get started right away!",1391,,Paelias Liadon,paelias.liadon@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:15:27,,263612,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/animated_20200319005231407916.GIF,https://www.mobilize.us/workingfamilies/event/263612/,,WFP Welcome Gathering!!!,MEETING,Welcome to the Party!!!,PUBLIC,,2020-03-18 17:42:02,,PUBLIC,,True,"The Working Families Party (WFP) is a grassroots political party building a multiracial movement of working people to transform America for the liberation of people and the planet.
+Please sign up and follow the next steps in your email, including training, to get started right away!",262834,1391,,Paelias Liadon,paelias.liadon@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:15:27,,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/animated_20200319005231407916.GIF,https://www.mobilize.us/workingfamilies/event/263612/,,WFP Welcome Gathering!!!,MEETING,Welcome to the Party!!!,PUBLIC,,2020-03-18 17:42:02,,PUBLIC,,True,"The Working Families Party (WFP) is a grassroots political party building a multiracial movement of working people to transform America for the liberation of people and the planet.
 
 Whether you’re a new supporter or a longtime member, welcome gatherings are an energetic space where you can meet other working people with the same vision of building a world where we can thrive, and not just survive. We’ll share our desires and vision for a political party that truly is for us and by us. We’ll get concrete about how we are building the power we need to have an impact in this political moment. You can get your questions about the party answered here. And we can help you sort out a meaningful next step with the party.
 
-All are welcome.",1391,,Ielenia Nailo,ielenia.nailo@example.com,555-555-5555,1754918
-,APPROVED,False,2020-10-02 14:54:02,,263628,"This is a virtual training via Google Meet: 
+All are welcome.",263612,1391,,Ielenia Nailo,ielenia.nailo@example.com,555-555-5555,1754918
+,APPROVED,False,2020-10-02 14:54:02,,"This is a virtual training via Google Meet: 
 
 Please join the video meeting Monday at 1:30PM ET. Just, click this link: https://meet.google.com/ctv-gbrd-zfr
 
@@ -254,15 +254,15 @@ Run your crew! Are you a natural facilitator? This is your jam then...
 
 Moderators keep the trains running in a team channel. Some of the biggest roles are moderating our #text4resistance channel, but this skill is needed in all our projects too! You can help lead teams of members in #call-team, #social_media, and many more!
 
-**Training Needed One 1-hour session via webinar and some guided ""on the job"" training.**",1391,,Beiro Liadon,beiro.liadon@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:15:04,,264697,,America/New_York,,,https://www.mobilize.us/workingfamilies/event/264697/,,Pandemic Organizing HQ,OTHER,,PUBLIC,,2020-03-25 12:23:53,,PUBLIC,,True,"Rep. Ayanna Pressley, Ady Barkan, Center for Popular Democracy, the Working Families Party, and more will be hosting our second emergency call on the COVID-19 pandemic.
+**Training Needed One 1-hour session via webinar and some guided ""on the job"" training.**",263628,1391,,Beiro Liadon,beiro.liadon@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:15:04,,,America/New_York,,,https://www.mobilize.us/workingfamilies/event/264697/,,Pandemic Organizing HQ,OTHER,,PUBLIC,,2020-03-25 12:23:53,,PUBLIC,,True,"Rep. Ayanna Pressley, Ady Barkan, Center for Popular Democracy, the Working Families Party, and more will be hosting our second emergency call on the COVID-19 pandemic.
 
 This call will focus on what pieces of legislation Congress must pass immediately in order to address this harrowing health and economic crisis, ways that you can take action from the safety of your home, and how to build community in a time of social distancing and self-isolation.
 
 Together, we will discuss the federal response to the COVID-19 pandemic and the steps we must take to protect our communities & families.
 
-Register online for the call at https://zoom.us/webinar/register/WN_0IrDPCPBQyOHWT6TFd5Nyw.",1391,,Ivellios Holimion,ivellios.holimion@example.com,555-555-5555,1079532
-,APPROVED,False,2020-10-02 14:15:43,,264986,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/IMG_0040_20200326205532764169.jpeg,https://www.mobilize.us/workingfamilies/event/264986/,,People's Bailout: a digital rally to put people first!,RALLY,,PUBLIC,,2020-03-26 19:05:37,,PUBLIC,,True,"In the wake of the COVID-19 pandemic, we're calling on our legislators to put people first, take care of our communities, and protect our democracy during this unprecedented crisis. 
+Register online for the call at https://zoom.us/webinar/register/WN_0IrDPCPBQyOHWT6TFd5Nyw.",264697,1391,,Ivellios Holimion,ivellios.holimion@example.com,555-555-5555,1079532
+,APPROVED,False,2020-10-02 14:15:43,,,America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/IMG_0040_20200326205532764169.jpeg,https://www.mobilize.us/workingfamilies/event/264986/,,People's Bailout: a digital rally to put people first!,RALLY,,PUBLIC,,2020-03-26 19:05:37,,PUBLIC,,True,"In the wake of the COVID-19 pandemic, we're calling on our legislators to put people first, take care of our communities, and protect our democracy during this unprecedented crisis. 
  
 Join Stacey Abrams, Rev. Dr. William Barber II, and nearly two dozen of the nation’s most prominent progressive organizations for a #PeoplesBailout digital rally this Sunday, March 29 at 3:30 p.m. EST! 
 
@@ -270,8 +270,8 @@ The time is now: the need to come together to demand transformative change is mo
 
 ---
 A full list of sponsoring organizations for A #PeoplesBailout: 
-Working Families Party, Daily Kos, Jews for Racial & Economic Justice, Showing Up for Racial Justice, IfNotNow, Women’s March, About Face: Veterans Against the War, Jewish Community Action, Mijente, Jewish Voice for Peace Action, Never Again Action, CPD Action, People's Action, National Domestic Workers Alliance, MoveOn, MPower Change, Student Action, Indivisible, Vets For The People, Climate Justice Alliance, Grassroots Global, Justice Alliance, The Rising Majority, Sierra Club, Bend the Arc: Jewish Action, Detroit Jews for Justice.",1391,,Himo Amastacia,himo.amastacia@example.com,555-555-5555,1079532
-,APPROVED,False,2020-10-02 14:21:33,,265374,"## Thank you for registering! Here are your next steps:
+Working Families Party, Daily Kos, Jews for Racial & Economic Justice, Showing Up for Racial Justice, IfNotNow, Women’s March, About Face: Veterans Against the War, Jewish Community Action, Mijente, Jewish Voice for Peace Action, Never Again Action, CPD Action, People's Action, National Domestic Workers Alliance, MoveOn, MPower Change, Student Action, Indivisible, Vets For The People, Climate Justice Alliance, Grassroots Global, Justice Alliance, The Rising Majority, Sierra Club, Bend the Arc: Jewish Action, Detroit Jews for Justice.",264986,1391,,Himo Amastacia,himo.amastacia@example.com,555-555-5555,1079532
+,APPROVED,False,2020-10-02 14:21:33,,"## Thank you for registering! Here are your next steps:
 
 1. Sign up for the WFP Text Team Slack [here](https://www.wfp4themany.org/get-started) (this is how we communicate with the thousands of texting volunteers nationwide like you!)
 2.  Create your account in [Spoke](https://spoke.workingfamilies.org/10536106-5da3-439b-894a-83e3bd60a1de/join), our peer-to-peer texting app!
@@ -281,8 +281,8 @@ Working Families Party, Daily Kos, Jews for Racial & Economic Justice, Showing U
 
 Join the Working Families Text4Resistance team to learn how to utilize peer to peer texting in this time to respond to the ongoing crisis. We do wellness checks, offer information about mutual aid, make new community connections, and offer ways for those that are well to engage in political actions to demand our government put people and health first!
 
-Sign up for a shift and follow the instructions you receive by email.",1391,,Leshanna Amastacia,leshanna.amastacia@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:15:48,,265841,"There are two ways to join us:
+Sign up for a shift and follow the instructions you receive by email.",265374,1391,,Leshanna Amastacia,leshanna.amastacia@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:15:48,,"There are two ways to join us:
 
 JOIN US ON ZOOM:
 
@@ -312,8 +312,8 @@ Maurice Mitchell
 Cindy Wiesner
 Loan Tran
 
-Supported by the Working Families Party",1391,,Quarion Meliamne,quarion.meliamne@example.com,555-555-5555,841100
-,APPROVED,False,2020-10-02 14:15:49,,266125,"There are multiple ways to join us:
+Supported by the Working Families Party",265841,1391,,Quarion Meliamne,quarion.meliamne@example.com,555-555-5555,841100
+,APPROVED,False,2020-10-02 14:15:49,,"There are multiple ways to join us:
 
 JOIN US ON ZOOM:
 
@@ -334,8 +334,8 @@ We have received great interest in our teach-in series. Our Zoom account has a 1
 
 We look forward to you joining us!",America/New_York,,https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20-%20RM%20Teach%20In%20Series_20200403152606910152.png,https://www.mobilize.us/workingfamilies/event/266125/,,Rising Majority Teach-In,DEBATE_WATCH_PARTY,,PUBLIC,,2020-04-03 11:29:47,,PUBLIC,,True,"A teach-in by The Rising Majority 
 
-Supported by the Working Families Party",1391,,Heian Siannodel,heian.siannodel@example.com,555-555-5555,841100
-,APPROVED,False,2020-10-02 14:24:14,,267791,"# Two More Steps!
+Supported by the Working Families Party",266125,1391,,Heian Siannodel,heian.siannodel@example.com,555-555-5555,841100
+,APPROVED,False,2020-10-02 14:24:14,,"# Two More Steps!
 
 ## 1) TAKE THE WFP VALUES PLEDGE: 
 We’re building a generation of WFP loyalists. We’ll operate as a collective to fight for the future that our children, grandchildren, and loved ones deserve. Taking our supporter pledge means you align with our values and when election time comes you look for WFP endorsed candidates whether they are running on the WFP line or the democratic line. Even if you can’t vote, you can talk up our candidates to everyone you know. Take the pledge at  [www.wfpus.org/pledge](https://wfpus.org/pledge)
@@ -355,8 +355,8 @@ You can also join the call by phone at:
 Speaker(s):
 Ted Fertik, is a senior leader of WFP's  Membership, Organizing & Radical Education Team. He is also a Senior Strategist at Grassroots Policy Project (GPP). Ted has years of experience in electoral strategy and worker organizing, in addition to academic training. He completed his PhD in History at Yale University in 2018 with a dissertation on the international economics and politics of nationalism, globalization, and US global ascendancy in the interwar period. His expertise is in political education and ideological development. His writing has appeared in The Nation, Jacobin, In These Times, n+1, and New Labor Forum.
 
-Makia Green is a talented trainer, facilitator and community organizer. They are presently an organizer for Working Families in Washington, DC. Makia also serves as a trainer for Momentum Community Institute and Lead Organizer for the DC Chapter of Black Lives Matter Global Network. Makia earned a bachelor’s in psychology at the University of Rochester and has presented research and trainings at - Indiana University, Allied Media Conference, Bucknell University, and American University.",1391,,Peren Amastacia,peren.amastacia@example.com,555-555-5555,841100
-,APPROVED,False,2020-10-02 14:16:30,,268517,"## Thank you for Joining the Team!
+Makia Green is a talented trainer, facilitator and community organizer. They are presently an organizer for Working Families in Washington, DC. Makia also serves as a trainer for Momentum Community Institute and Lead Organizer for the DC Chapter of Black Lives Matter Global Network. Makia earned a bachelor’s in psychology at the University of Rochester and has presented research and trainings at - Indiana University, Allied Media Conference, Bucknell University, and American University.",267791,1391,,Peren Amastacia,peren.amastacia@example.com,555-555-5555,841100
+,APPROVED,False,2020-10-02 14:16:30,,"## Thank you for Joining the Team!
 
 ### Getting Started:
 1. Sign up for the WFP Text Team Slack [here](https://join.slack.com/t/wfp4themany/shared_invite/zt-ab1j315x-ZsU82dYnAX6COXvHjM~Nzg) (this is how we communicate with the thousands of texting volunteers nationwide like you!)
@@ -365,8 +365,8 @@ Makia Green is a talented trainer, facilitator and community organizer. They are
 
 **Have questions about any of this? No worries!** Just complete step 1 above and you'll also have a guide there to help you along.  We have a whole helpdesk ready to answer your questions as you get started and moderators that answer your voter contact questions along the way!",America/New_York,http://www.wfp4themany.org/text,https://mobilizeamerica.imgix.net/uploads/event/513-WFP-Ongoing_Mobilize-Us%20944x629_s2General%201_20200418145719831465.jpg,https://www.mobilize.us/workingfamilies/event/268517/,,Reach Voters in Pennsylvania About WFP Candidates and Vote by Mail!,TEXT_BANK,,PUBLIC,,2020-04-18 11:05:04,NOT_SURE,PUBLIC,,True,"Our text team reaches out to millions of voters each year. During the coronavirus crisis, we are contacting voters to help them request a ballot to be mailed to them. **Our right to vote will note be stolen!**
 
-Please join the team now to help us reach voters in Pennsylvania!",1391,,Ivellios Galanodel,ivellios.galanodel@example.com,555-555-5555,474960
-,APPROVED,False,2020-10-02 14:17:43,,268730,"# Two More Steps:
+Please join the team now to help us reach voters in Pennsylvania!",268517,1391,,Ivellios Galanodel,ivellios.galanodel@example.com,555-555-5555,474960
+,APPROVED,False,2020-10-02 14:17:43,,"# Two More Steps:
 
 ## 1) TAKE THE WFP VALUES PLEDGE: 
 We’re building a generation of WFP loyalists. We’ll operate as a collective to fight for the future that our children, grandchildren, and loved ones deserve. Taking our supporter pledge means you align with our values and when election time comes you look for WFP endorsed candidates whether they are running on the WFP line or the democratic line. Even if you can’t vote, you can talk up our candidates to everyone you know. Take the pledge at  [www.wfpus.org/pledge](https://wfpus.org/pledge)
@@ -398,8 +398,8 @@ Find your local number: https://zoom.us/u/aeryDHsSj8",America/New_York,,https://
 
 Whether you’re a new supporter or a longtime member, welcome gatherings are an energetic space where you can meet other working people with the same vision of building a world where we can thrive, and not just survive. We’ll share our desires and vision for a political party that truly is for us and by us. We’ll get concrete about how we are building the power we need to have an impact locally and nationally in this political moment. You can get your questions about the party answered here. And we can help you sort out a meaningful next step with the party.
 
-If there isn't a local welcome gathering happening for your state, or you aren't available to attend that day come to this one. All are welcome!",1391,,Paelias Amakir,paelias.amakir@example.com,555-555-5555,841100
-,APPROVED,False,2020-10-02 14:24:15,,269215,"Thank you for signing up!
+If there isn't a local welcome gathering happening for your state, or you aren't available to attend that day come to this one. All are welcome!",268730,1391,,Paelias Amakir,paelias.amakir@example.com,555-555-5555,841100
+,APPROVED,False,2020-10-02 14:24:15,,"Thank you for signing up!
 
 To join us for this training please use this link:
 
@@ -407,15 +407,15 @@ Meeting ID; meet.google.com/mju-ixwf-pqj",America/New_York,,https://mobilizeamer
 
 This is a training for your volunteers or staff to learn how to build scripts in Spoke. Scripts help us target individual voters by asking them questions about our candidate, reminding them about upcoming events, or simply engaging voters on the platform they're most likely to see.
 
-Volunteers and campaign staff on this call will learn how to help campaigns nationally and locally through our texting program.",1391,,Theirastra Amastacia,theirastra.amastacia@example.com,555-555-5555,1798015
-,APPROVED,False,2020-10-02 14:23:31,,269217,"Thank you for signing up!
+Volunteers and campaign staff on this call will learn how to help campaigns nationally and locally through our texting program.",269215,1391,,Theirastra Amastacia,theirastra.amastacia@example.com,555-555-5555,1798015
+,APPROVED,False,2020-10-02 14:23:31,,"Thank you for signing up!
 
 To join us for this training please use this link:
 
 Meeting ID; meet.google.com/mju-ixwf-pqj",America/New_York,,,https://www.mobilize.us/workingfamilies/event/269217/,,Targeting & Phonebanking and Peer-to-Peer Texting Tools 201,TRAINING,,PUBLIC,,2020-04-21 20:22:26,ACCESSIBLE,PUBLIC,,True,"This is a second part training on peer-to-peer texting and phonebanking platforms. If you haven't participated in our introductory training, we'd recommend requesting that training from your regional organizer before you participate in a 201 training.
 
-We will cover how to plug into these important contact tools and what volunteer roles need to be filled if you'd like to participate in our Spoke texting program.",1391,,Laucian Liadon,laucian.liadon@example.com,555-555-5555,1798015
-,APPROVED,False,2020-10-02 14:16:16,,271849,"# Two More Steps:
+We will cover how to plug into these important contact tools and what volunteer roles need to be filled if you'd like to participate in our Spoke texting program.",269217,1391,,Laucian Liadon,laucian.liadon@example.com,555-555-5555,1798015
+,APPROVED,False,2020-10-02 14:16:16,,"# Two More Steps:
 
 ## 1) TAKE THE WFP VALUES PLEDGE: 
 We’re building a generation of WFP loyalists. We’ll operate as a collective to fight for the future that our children, grandchildren, and loved ones deserve. Taking our supporter pledge means you align with our values and when election time comes you look for WFP endorsed candidates whether they are running on the WFP line or the democratic line. Even if you can’t vote, you can talk up our candidates to everyone you know. Take the pledge at  [www.wfpus.org/pledge](https://wfpus.org/pledge)
@@ -446,4 +446,4 @@ Find your local number: https://us02web.zoom.us/u/kbHU3gOczE",America/New_York,,
 
 Whether you’re a new supporter or a longtime member, welcome gatherings are an energetic space where you can meet other working people with the same vision of building a world where we can thrive, and not just survive. We’ll share our desires and vision for a political party that truly is for us and by us. We’ll get concrete about how we are building the power we need to have an impact locally and nationally in this political moment. You can get your questions about the party answered here. And we can help you sort out a meaningful next step with the party.
 
-If there isn't a local welcome gathering happening for your state, or you aren't available to attend that day come to this one. All are welcome!",1391,,Leshanna Holimion,leshanna.holimion@example.com,555-555-5555,1766263
+If there isn't a local welcome gathering happening for your state, or you aren't available to attend that day come to this one. All are welcome!",271849,1391,,Leshanna Holimion,leshanna.holimion@example.com,555-555-5555,1766263
