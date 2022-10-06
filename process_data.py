@@ -17,14 +17,14 @@ print("processed", len(attendances), "attendances")
 
 # defining helper functions
 
+# function to convert unix timestamps to date strings
 def unix_to_date_string(unix_date):
   if unix_date:
     return datetime.datetime.fromtimestamp(int(unix_date)).strftime('%Y-%m-%d %H:%M:%S')
   else:
     return None
 
-
-
+# function to extract a person dictionary from an attendance record and flatten it
 def get_person(record):
   # extracting "person" dictionary from the record
   person_dict = record['person']
@@ -46,7 +46,7 @@ def get_person(record):
   return person_dict['id'], person_dict
 
 
-
+# function to extract an event dictionary from an attendance record and flatten it
 def get_event(record):
   # extracting "event" dictionary from the record
   event_dict = record['event']
@@ -87,7 +87,7 @@ def get_event(record):
   return event_dict['id'], event_dict
 
 
-
+# function to extract a timeslot dictionary from an attendance record and flatten it
 def get_timeslot(record):
   # extracting "event" dictionary from the record
   timeslot_dict = record['timeslot']
@@ -99,7 +99,7 @@ def get_timeslot(record):
   # returning the timeslot_id and the simplified dictionary
   return timeslot_dict['id'], timeslot_dict
 
-
+# function to flatten an attendance record once we've extracted what we need from it
 def flatten_attendance_record(record):
 
   new_record = record
@@ -121,12 +121,7 @@ def flatten_attendance_record(record):
 
   return new_record['id'], new_record
 
-  
-
-
-
-
-
+# function to process a list of attendance records and store the new flat data in lists of dictionaries
 def process_records(list_of_records):
   # creating dictionaries to store records in -- this will eliminate any duplicates since each id will be unique, unlike lists!
   people = {}
@@ -163,6 +158,7 @@ def process_records(list_of_records):
   # now that we have unique records, we don't need the id keys! we just want the dictionaries so we can convert to a CSV
   return list(people.values()), list(events.values()), list(timeslots.values()), list(flat_attendances.values())
 
+# function to export our table equivalents to CSV
 def list_of_dicts_to_csv(list_of_dicts,csv_name):
 
   with open(f'output/{csv_name}.csv', 'w', encoding='utf8', newline='') as output_file:
@@ -175,6 +171,7 @@ def list_of_dicts_to_csv(list_of_dicts,csv_name):
   
   print(f'Successfully wrote {csv_name} to a CSV')
   
+
 # defining main
 def main():
 
@@ -184,7 +181,7 @@ def main():
   # converting each of those lists of dictionaries into CSVs
   for list_of_dicts, file_name in zip([people, events, timeslots, flat_attendances], ['people','events','timeslots', 'flat_attendances']):
     
-    # deleting existing files
+    # deleting existing files if they exist
     try:
       os.remove(f'output/{file_name}.csv')
       print(f'Deleted {file_name}.csv')
