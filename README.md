@@ -1,9 +1,9 @@
 ## Contents
-I. [Description](#Description)
-II. [My approach](#My-approach)
-III. [Output](#Output)
-IV. [How to use these tables](#How-to-use-these-tables)
-V. [Next steps](#Next-steps)
+I. [Description](#Description) <br />
+II. [My approach](#My-approach) <br />
+III. [Output](#Output) <br />
+IV. [How to use these tables](#How-to-use-these-tables) <br />
+V. [Next steps](#Next-steps) <br />
 
 ## Description
 This repo contains my work for the WFP data engineering challenge. The goal of the challenge was to manipulate JSON data from an events platform that is ubiquitous in progressive spaces into flattened, queryable tables, as well as provide instructions for using those tables.
