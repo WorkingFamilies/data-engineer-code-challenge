@@ -2,7 +2,7 @@
 This repo contains my work for the WFP data engineering challenge. The goal of the challenge was to manipulate JSON data from an events platform that is ubiquitous in progressive spaces into flattened, queryable tables, as well as provide instructions for using those tables.
 
 ## My approach
-To start, I examined the export to see what it contained and where there were nested dictionaries that would need to be flattened. Right off the bat, I saw that there were nested dictionaries for people, events, and timeslots which were three tables that I was supposed to create. Each of these dictionaries had primary keys called `id` so I decided that these tables should be constructed in a star schema model (see visual below). <br />
+To start, I examined the export to see what it contained and where there were nested dictionaries that would need to be flattened. Right off the bat, I saw that there were nested dictionaries for people, events, and timeslots which were three tables that I was supposed to create. Each of these dictionaries had primary keys called `id` so I decided that these tables should be constructed in a star schema model (see visual below). In this case, the fact table is the `attendances` while `people`, `events`, and `timeslots` will serve as our dimension tables. <br />
 
 ![Star schema flowchart](https://assets.website-files.com/5e6f9b297ef3941db2593ba1/614df58a1f10f92b88f95709_Screenshot%202021-09-24%20at%2017.46.51.png)
  <br />
